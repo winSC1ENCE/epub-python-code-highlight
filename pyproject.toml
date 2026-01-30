@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "epub-python-code-highlight"
+version = "0.1.0"
+description = "EPUB tool to highlight Python code blocks with Pygments."
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+  "Pygments>=2.0",
+]
+
+[project.scripts]
+epub-python-highlight = "epub_python_highlight:main"
