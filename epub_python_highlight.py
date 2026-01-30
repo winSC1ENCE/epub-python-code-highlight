@@ -161,7 +161,7 @@ def main() -> None:
 
             if css_file is None:
                 # Create a CSS file under OEBPS if possible, else root
-                oebps = workdir / "OEBPStrans
+                oebps = workdir / "OEBPStrans"
                 if not oebps.exists():
                     # try common folder
                     oebps = workdir / "OEBPS"
